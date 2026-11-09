@@ -1,0 +1,14 @@
+# 용량이 크거나 개인 공간이 찍힌 파일은 올리지 않음
+.venv/
+__pycache__/
+*.pyc
+captures/
+datasets/
+results/
+figures/
+runs/
+models/
+unzipped/
+*.pt
+*.zip
+*.ply
