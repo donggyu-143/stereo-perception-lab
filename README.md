@@ -92,7 +92,11 @@ flowchart LR
 
 - 실시간 정렬 확인으로 두 카메라 pitch 차이를 5.2° → 0.70°로 맞춤
 - 내부 파라미터는 고정하고 R, t만 계산 → 베이스라인 119.57mm (줄자 120mm)
-- 정렬 후 같은 점의 좌우 세로 차이 RMS 0.343px
+- 정렬 전 세로 차이 평균 73px → 정렬 후 RMS 0.343px
+
+![rectify_before](docs/rectify_before.png)
+
+*정렬 전 좌우 영상. 노란 가로선에서 보면 같은 코너가 좌우 영상에서 서로 다른 높이에 있음 (세로 차이 평균 73px)*
 
 ![rectify](docs/rectify.png)
 
